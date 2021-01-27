@@ -9,42 +9,39 @@ writeCode
 - Use semantic tags and keep the nesting and indentation proper.
 
 - Chose your own image.
-
-<!--html code-->
+<!--HTML-->
 <!DOCTYPE html>
 <html lang="en">
-      <head>
-         <meta charset="UTF-8">
-         <link rel="stylesheet" href="stylesheet/style.css">
-         <link rel="preconnect" href="https://fonts.gstatic.com">
-         <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;700&display=swap" rel="stylesheet">
-         <title>Document</title>
-      </head>
-    <body>
-       <main>
-            <section class="bg">
-              <h1>Backgrounds and Gradients</h1>
-              <div>
-                  <div class=" box box-1">
-                     <h2> Box-1</h2>
-                  </div>
-                  <div class=" box box-2">
-                     <h2> Box-2</h2>
-                  </div>
-                  <div class=" box box-3">
-                     <h2> Box-3</h2>
-                  </div>
-                  <div>
-                       <div class=" big-box box-4">
-                           <h3> Box-4</h3>
-                      </div>
-                  </div>
-
-              </div>   
-
-            </section>
-       </main>  
-    </body>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Assignment-1</title>
+      <!---Font family-->
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
+      <!---CSS-->
+      <link rel="stylesheet" href="assets/stylesheet/style.css">
+  </head>
+  <body>
+    <header class="header">
+        <h1>Backgrounds and Gradients </h1>
+    </header>
+    <main>
+      <section>
+        <div class="container flex ">
+          <div class="box box1 center"> BOX 1</div>
+          <div class="box box2 center"> BOX 2</div>
+          <div class="box box3 center"> BOX 3</div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="box4 center"> Box4 </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
+
+
        
