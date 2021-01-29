@@ -1,0 +1,242 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*Custom style*/
+*,
+*::before,*::after{
+    box-sizing: border-box;
+}
+/*Genral class*/
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items:center;
+
+}
+body{
+    font-family: 'Yusei Magic', sans-serif;
+    line-height: 1.5;
+    /*background: linear-gradient(#20222F,#1D2029) no-repeat;*/
+    color: white;
+    background-color: #1D2029;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.padding{
+    padding: 30px 0 20px 0;
+}
+.center{
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    
+    flex-wrap: wrap;
+}
+
+
+/*Header*/
+
+.header{
+    background-color: #20222F;
+    padding-bottom: 150px;
+    color: #929BB8;
+    position:absolute;
+    width: 100%;
+}
+ 
+.header h1{
+    font-size: 32px;
+    text-transform:capitalize;
+    color: white;
+}
+
+.header h5{
+    text-transform: capitalize;
+    color: #929BB8;
+}
+
+.btn{
+    height: 27px;
+    width: 55px;
+    background: linear-gradient(to right,#3F95D0,#3AC99E);
+    border-radius: 20px;
+   padding: 4px;
+    margin-left: 20px;
+}
+
+.btn-container .circle{
+height: 20px;
+width: 20px;
+border-radius: 50%;
+background-color: #1E2A40;
+
+}
+/*section*/
+
+
+.box{
+    width: 23%;
+   color: #8E98BC;
+    background-color: #252B43;
+    text-align: center;
+    border-radius: 4px;
+   position: relative;
+   margin-top: 150px;
+}
+
+.fb-border{
+    border-top: 4px solid #188FF5;
+    
+}
+
+.twitter-border{
+    border-top: 4px solid #1BA2F3;
+    
+} 
+.insta-border{
+
+    border-top: 4px solid #EE897D;
+}
+
+.youtube-border{
+    border-top: 4px solid #C30328;
+}
+
+ .id{
+    margin-left: 10px;
+}
+
+h2{
+    font-size: 65px;
+    color: white;
+    line-height: 1.2;
+}
+
+.details{
+    
+    letter-spacing: 4px;
+   
+}
+
+.daily-details{
+    color: #46A295;
+    padding: 10px 0;
+}
+
+.daily-details i{
+    font-size: 12px;
+    color:#359E8F
+}
+
+.down-caret i{
+    color: #BD4D5D;
+}
+
+.facebook i{
+    font-size: 30px;
+    color: #209FF0;
+}
+
+.twitter i{
+    font-size: 30px;
+    color: #209FF0;
+}
+
+.insta i{
+    color: #C6718E;
+    font-size: 30px;
+}
+
+.you-tube i{
+    color: #362943;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    background-color: #C1022B;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span{
+    color:#BD4D5D;
+}
+/*Secondary-section*/
+
+.cart-container{
+    margin: 20px 10px;
+}
+
+h4{
+font-size: 30px;
+
+}
+
+.small-box{
+    width: 23%;
+    background-color: #252B43;
+    padding: 20px 20px;
+    border-radius: 6px;
+}
+
+.information{
+    font-size: 18px;
+    color: #939AC6;
+    padding: 20px 0;
+}
+
+h6{
+    font-size: 30px;
+   
+}
